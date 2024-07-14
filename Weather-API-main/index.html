@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <header>
+        <h1>Weather App</h1>
+        <div class="search-container">
+            <input type="search" id="city" placeholder="Type a city"/>
+            <button id="btn" onclick="displayResult()">Submit</button>
+        </div>
+    </header>
+    <main>
+        <section class="weather-results">
+            <div class="result">
+                <h2>Average Temperature</h2>
+                <p id="output"></p>
+            </div>
+            <div class="result">
+                <h2>High Temperature</h2>
+                <p id="output2"></p>
+            </div>
+            <div class="result">
+                <h2>Min Temperature</h2>
+                <p id="output3"></p>
+            </div>
+        </section>
+    </main>
+    <script src="weather.js"></script>
+</body>
+</html>

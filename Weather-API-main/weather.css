@@ -1,0 +1,82 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('default-background.jpg');
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease;
+}
+
+/* Header styles */
+header {
+  background-color: rgba(135, 206, 235, 0.5); /* Sky blue with 50% opacity */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Search container styles */
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.search-container input[type="search"] {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.search-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #87CEEB; /* Sky blue */
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.search-container button:hover {
+  background-color: #4682B4; /* Darker shade of sky blue on hover */
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+}
+
+/* Weather results styles */
+.weather-results {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.result {
+  background-color: #87CEEB; /* Sky blue */
+  border-radius: 10px;
+  padding: 20px;
+  width: 30%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.result h2 {
+  margin-top: 0;
+}
